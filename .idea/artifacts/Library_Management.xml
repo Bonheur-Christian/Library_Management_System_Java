@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="Library_Management">
+    <output-path>$PROJECT_DIR$/out/artifacts/Library_Management</output-path>
+    <root id="archive" name="Library_Management.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Library_Management" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.33" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Library_Management/web/Web" />
+    </root>
+  </artifact>
+</component>
